@@ -426,8 +426,8 @@ display: none;
     content: "";
     border: 2px solid #76c04e;
     width: 220px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     bottom: -60px;
 }
 

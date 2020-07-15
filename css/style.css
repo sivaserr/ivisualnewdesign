@@ -11,8 +11,8 @@ html{
    body {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito','serif';
-
+    /*font-family: 'Nunito','serif';*/
+font-family: 'Philosopher', sans-serif;
       transition: background  1.5s;
     
         -webkit-transition: background 2s;
@@ -84,6 +84,15 @@ html{
     transform: translateX(-50%);
     top: 30%;
 }
+
+.navbar-nav li:hover,.socialmedias ul li:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.navbar-nav li a:hover {
+    color: #76c04e;
+}
+
 .nav-link{
   color: #fff;
   font-size: 25px;
@@ -196,7 +205,9 @@ display: none;
     letter-spacing: 0px;
     left: -15px;
 }
-
+.socialmedias ul li a {
+    color: #fff!important;
+}
 .active {
 position: relative;
 z-index: 10;
@@ -302,9 +313,12 @@ right: -40px;
 
 
 
-.banner2{
-  position: relative;
+.banner2 {
+    margin-bottom: 50px;
+    position: relative;
 }
+
+
 .banner2 img{
   position: relative;
     left: 40%;
@@ -532,7 +546,7 @@ left: -30%;
      position: relative;
     font-size: 20px;
         color: #4c4c4c;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 .ourworks{
@@ -540,6 +554,8 @@ left: -30%;
     top: 100px;
     width: 50%;
     margin:0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .designworks{
   text-align: right;
@@ -568,15 +584,23 @@ left: -30%;
         height: 30vh;
 
   }
-  .visualborder{
-    position: relative;
+.aboutusfooter a,.contactfooter a {
+ position: relative;
+}
+.footertext::after {
     content: "";
-    border: 2px solid #76c04e;
-    width: 280px;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -40px;
-  }
+    position: absolute;
+    border: 0px solid #76c04e;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+}
+.aboutusfooter:hover .footertext::after{
+      transition: 1s;
+      border: 1px solid #76c04e;
+      width:100%;
+}
+
   .contactus{
     position: absolute;
     right: 230px;
@@ -1067,8 +1091,12 @@ width: 50%;
 .socialmedia ul li{
     letter-spacing: 20px;
     font-size: 30px;
-
     }
+.socialmedia ul li:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
     .visualbanner{
           position: relative;
     bottom: -950px;
