@@ -1,0 +1,554 @@
+@media (max-width: 767.98px){
+
+
+/*  HOME PAGE  */
+
+	.banner1{
+    width: 100%;
+    margin: 0 auto;
+   }
+   
+	.logo{
+  position: relative;
+      top: 0px;
+
+}
+.home{
+     text-align: center;
+    position: relative;
+    top: 25%;
+    transform: translateY(-75%);
+
+}
+.logo img {
+    width: 230px;
+    position: relative;
+}
+.ivisual h1 , .ivisual1 h1{
+	font-size: 20px;
+}
+.home.visible2{
+    top: 20%;
+   left: 50%;
+    transform: translate(-50%, -80%);
+}
+.sidemenu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -35%;
+    transform: translateY(65%);
+}
+.title1 {
+    transform: rotateZ(0deg);
+    left: 15%;
+}
+/*.title1:before {
+    content: "\f177";
+    position: absolute;
+    left: -20px;
+}*/
+.title2 {
+    transform: rotateZ(0deg);
+    right: 15%;
+}
+/*.title2:before {
+    content: "\f178";
+    position: absolute;
+    right: -20px;
+}*/
+
+.sidemenu i{
+  display: block;
+}
+.title1
+
+i.fa.fa-long-arrow-left {
+position: absolute;
+    top: 0px;
+    left: -35px;
+    font-size: 25px;
+}
+i.fa.fa-long-arrow-right {
+    position: absolute;
+    top: 0;
+    right: -35px;
+    font-size: 25px;
+}
+.title1 h1,.title2 h1{
+    font-size: 20px;
+    color: #000;
+}
+.border1,.border2{
+display: none;
+  
+
+}
+
+ 
+
+.menu-btn{
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  cursor: pointer;
+  margin: 0px;
+  top: 85%;
+  position: fixed;
+  cursor: pointer;
+  left: 85%;
+  transform:translate(-15% , -15%);
+
+}
+
+.main-btn {
+    content: "";
+    position: absolute;
+    border: 1px solid black;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    top: -31px;
+    right: -17px;
+    background: #000;
+}
+.homepage1{
+    background: #fff;
+}
+
+.close-btn {
+  position: absolute;
+    width: 30px;
+  height: 2px;
+  background: #76c04e!important;
+  margin-bottom: 7px;
+  display: block;
+    width: 100%;
+    cursor: pointer;
+
+
+}
+.close-btn:before ,.close-btn:after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #76c04e!important;
+  margin-bottom: 7px;
+  display: block;
+
+} 
+.close-btn:before {
+ top: -10px;
+    transform: translateX(0%);
+
+}
+
+.close-btn:after {
+ top: 10px;
+    width: 100%;
+    transform: translateX(0%);
+
+}
+.menu-btn.visible1 .close-btn{
+background: none!important;
+}
+.menu-btn.visible1 .close-btn:before{
+  transform:rotate(45deg);
+  margin-bottom: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.menu-btn.visible1 .close-btn:after{
+  transform:rotate(-45deg);
+    margin-bottom: 0;
+      position: relative;
+      top: 0;
+      width: 100%;
+}
+.menu-btn.visible1{
+    top:85%;
+    left: 85%;
+    transform: translate(-15% , -15%);
+}
+.menu.visible:before {
+    
+display: none;
+}
+.menu.visible{
+    top: 25%;
+}
+.menu.visible:after{
+      
+display: none;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.ivisual{
+    position: relative;
+    top: 100px;
+}
+.socialmedias li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    font-size: 35px;
+    top: 20px;
+    position: relative;
+    letter-spacing: 0px;
+}
+.header{
+    left: 5px;
+}
+
+
+.active:after {
+    content: "";
+    position: absolute;
+    bottom: 18px;
+    left: 60px;
+    width: 50%;
+    height: 25%;
+    background-color: #76c04e;
+    z-index: -10;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+    /*   WE DO PAGE      */
+
+.banner2{
+    height: auto;
+    position: relative;
+}
+
+
+.colouredbanner {
+      width: 321px;
+    height: 20%;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    }
+    .banner2 img {
+    position: relative;
+    left: 40%;
+    transform: translateX(-60%);
+    width: 60px;
+}
+    .smalllogo {
+        width: 50px;
+    height: 50px;
+    background-size: 25px;
+    right: -22px;
+
+}
+.subbanner1{
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+.subbanner1 p{
+    position: relative;
+    left: 20px;
+}
+    .subbanner2 {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    position: relative;
+    left: 30px;
+    font-size: 15px;
+    display: inline;
+}
+
+
+.we {
+   left: -10px;
+    font-size: 30px;
+    top: 10px
+
+}
+.we:before {
+    bottom: -25px;
+    left: -10px;
+    height: 86px;
+}
+.workborder{
+    width: 250px;
+}
+.workprocess {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    margin: 0 auto;
+}
+.workprocess h4 img{
+    display: none;
+}
+.hl1,.hl2 ,.hl3{
+    display: none;
+
+}
+.vl1,.vl2,.vl3{
+    display: none;
+}
+.brief , .develop , .design , .all{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.brief h4:after , .develop h4:after{
+    display: none;
+}
+.design h4:before{
+    display: none;
+}
+
+.all{
+      padding-bottom: 110px;
+
+}
+.detailsbanner{
+    padding-bottom: 200px;
+}
+.detailsbanner img{
+     display: none;
+}
+.details1 {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.colourbanner {
+        width: 321px;
+    height: 64px;
+    position: absolute;
+    top: -35px;
+    left: 0px;
+}
+.details1 h1{
+    left: 30px;
+    font-size: 30px;
+    top: -10px;
+}
+.details1 i {
+    font-size: 40px;
+    position: relative;
+    left: 25px;
+}
+.detailsborder {
+   content: "";
+    border: 1px solid black;
+    width: 80px;
+    position: absolute;
+    transform: rotateZ(90deg);
+    left: -21px;
+    top: 7px;
+}
+.details1 p {
+       position: absolute;
+    left: 80px;
+    top: 0;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.sl{
+      color: #4c4c4c!important;
+    font-weight: initial;
+    position: relative;
+    left: 0px;
+}
+.tl{
+   color: #4c4c4c!important;
+    font-weight: initial;
+    position: relative;
+    left: 0px;
+}
+.ourworks {
+    top: 200px;
+    text-align: center;
+     width: 100%;
+    margin:0 auto;
+}
+.ourworks ul li{
+    position: relative;
+    left: -20px;
+}
+.designworks{
+  text-align: center;
+}
+.developworks h4{
+  left: 0;
+
+}
+.designworks:after{
+ display: none!important;
+
+  }
+  .contactus{
+    position: absolute;
+    right: 20px;
+  }
+  .circletext {
+ display: none;
+}
+  .contactus img{
+    width: 40px;
+    height: 40px;
+    top: -25px;
+     }
+
+
+
+.aboutusfooter p {
+    
+    font-size: 40px;
+}
+.visualborder {
+    position: relative;
+    content: "";
+    border: 2px solid #76c04e;
+    width: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+}
+
+
+
+
+
+    /*    VISUALS PAGE  */
+
+.project3 img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+  /*   PROJECT1 PAGE    */
+
+
+  .projectheader {
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    height: 350px;
+}
+    .projectheader img{
+   width: 150px;
+   position: relative;
+   left: 50%;
+   top: 50%;
+   transform:translate(-50%, -50%);
+    }
+    .card1 {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+    .customerdetails {
+    padding: 25px;
+    text-align: center;
+}
+.customerdetails .right {
+    text-align: center;
+}
+.logoconcept {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: 20%;
+    background: #fff;
+}
+.colorconcept {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    background: #fff;
+}
+.colorconcept h3 , .logoconcept h3{
+  font-size: 20px;
+}
+.starsimages { 
+    width: 90%;
+    margin: 0 auto;  
+}
+.brandingimage {
+    width: 90%;
+    margin: 0 auto;
+}
+.contactfooter {
+    top: 350px;
+}
+.contactfooter h1 {
+  font-size: 30px;
+}
+
+.contactfooter h1:after {
+   
+    left: 30%;
+        width: 150px;
+
+}
+.website , .project2end{
+  width: 90%;
+}
+.nextproject h1 {
+    font-size: 30px;
+}
+
+.bollsimage {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
+    background: #fff;
+    top: 70px;
+}
+
+.project4end{
+    width: 80%;
+    
+}
+
+
+/*    CONTACT PAGE*/
+
+.contactlogo img {
+    width: 250px;
+}
+.contact-form{
+  width: 70%;
+}
+.addressbanner{
+  width: 300px;
+}
+.visualbanner h1:after {
+   width: 200px;
+    bottom: 100px;   
+}
